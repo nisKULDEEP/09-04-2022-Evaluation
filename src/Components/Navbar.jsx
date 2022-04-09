@@ -78,13 +78,7 @@ const Navbar = () => {
               </Link>
             )}
           </Temp>
-          <Temp>
-            {isAuth && (
-              <Link to="/products">
-                <Button primary>PRODUCT</Button>
-              </Link>
-            )}
-          </Temp>
+
           {/* {isAuth && (
             <Button primary onClick={() => logOut()}>
               Log Out

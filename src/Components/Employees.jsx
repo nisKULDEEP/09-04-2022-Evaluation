@@ -4,19 +4,21 @@ import { Link } from "react-router-dom";
 
 const Employees = () => {
   let Div = styled.div`
-    margin-top: 10px;
     border: 1px solid #cecece;
-    border-radius: 2%;
+    border-radius: 20px;
     background-color: #cecece;
     width: fit-content;
-    margin-left: 35%;
-    padding: 50px;
-    // height:150px;
-    // margin:auto;
+    margin: 20px auto;
+    // padding: 50px;
+    width: 50%;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   `;
   let P = styled.p`
     font-size: 25px;
@@ -55,7 +57,6 @@ const Employees = () => {
               {" "}
               <button>View Details</button>
             </Link>
-            &nbsp;
             <button>Edit Details</button>
           </Div>
         </Header>
