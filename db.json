@@ -1,0 +1,9 @@
+{
+  "Employee":[
+    { "id": 1, "name": "Rahul", "age": "60" , "gender":"M","department":"IT","salary":"50,000"},
+    { "id": 2, "name": "Ajay", "age": "25" , "gender":"M","department":"HR","salary":"40,000"},
+    { "id": 3, "name": "Ram", "age": "64" , "gender":"M","department":"OPS","salary":"58,000"},
+    { "id": 4, "name": "Prreey", "age": "25" , "gender":"F","department":"IT","salary":"30,000"},
+    { "id": 5, "name": "Gaury", "age": "96" , "gender":"F","department":"HR","salary":"40,000"}
+  ]
+}
